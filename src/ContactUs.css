@@ -1,0 +1,127 @@
+/* 
+/* Add a padding to the content container to prevent content from being hidden behind the navbar */
+.contact-container {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px; /* Add margin to create space below the fixed navbar */
+    position: relative;
+    z-index: 1; /* Ensure the content is behind the navbar */
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.contact-content {
+    padding: 30px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contact-content h1 {
+    color: #333; /* Set the text color for the contact form title */
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: none; /* Remove the border */
+    border-bottom: 1px solid #ccc; /* Add a bottom border */
+    transition: border-color 0.3s ease; /* Add a transition for the border color */
+  }
+  
+ 
+  
+
+.contact-button {
+    padding: 10px 20px;
+    background-color: #333; /* Set the background color for the Submit button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff; /* Set the text color for the Submit button */
+}
+
+.contact-button:hover {
+    background-color: #555; /* Change the background color on hover */
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9; /* Soft lavender background */
+    color: #333; /* Text color */
+    padding: 40px 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.section {
+    margin: 0 50px;
+}
+
+.section p {
+    margin: 5px 0;
+}
+
+.separator {
+    height: 200px;
+    border-left: 1px solid #fff;
+    margin: 0 30px;
+}
+
+.section a {
+    color: #333; /* Text color */
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.section a:hover {
+    color: #ccc;
+}
+
+.section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.section h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: #fefefe; /* Peach color for the underline */
+    transition: width 0.3s ease-in-out;
+}
+
+.section h3:hover::after {
+    width: 100%;
+    left: 0;
+}
+.copyright {
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+    font-size: 14px;
+}         
+
+ 
